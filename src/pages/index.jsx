@@ -1,5 +1,5 @@
 import {
-  createBrowserRouter,
+  createHashRouter,
   createRoutesFromElements,
   Route,
 } from "react-router-dom";
@@ -12,7 +12,7 @@ import Types from "./Types";
 import Blogs from "./Blogs";
 import Admins from "./Admins";
 import Products from "./Products";
-export const router = createBrowserRouter(
+export const router = createHashRouter(
   createRoutesFromElements(
     <>
       <Route path="/" element={<App />} errorElement={<Error404 />}>
