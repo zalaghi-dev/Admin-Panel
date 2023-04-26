@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'GOOD BRUSH';
+    src: url('GOODBRUSH.eot');
+    src: url('GOODBRUSH.eot?#iefix') format('embedded-opentype'),
+        url('GOODBRUSH.woff2') format('woff2'),
+        url('GOODBRUSH.woff') format('woff'),
+        url('GOODBRUSH.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
